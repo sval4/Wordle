@@ -19,7 +19,7 @@ This project implements a multi-threaded Wordle server in C. The server supports
 To compile the server, use the `gcc` compiler:
 
 ```bash
-gcc -pthread -o wordle_server hw4.c hw4-main.c
+gcc -pthread -o wordle_server wordle.c wordle-main.c
 ```
 
 ## How to Run
